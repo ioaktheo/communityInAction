@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="communityinaction_citizen.FXMLDocumentController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="354.0" prefWidth="640.0" VBox.vgrow="ALWAYS">
+         <children>
+            <AnchorPane prefHeight="400.0" prefWidth="640.0" style="-fx-background-color: #FFE4C4;">
+               <children>
+                  <Label layoutX="74.0" layoutY="65.0" text="ΤΥΠΟΣ ΠΡΟΒΛΗΜΑΤΟΣ" />
+                  <Label layoutX="73.0" layoutY="106.0" text="ΟΔΟΣ" />
+                  <Label layoutX="71.0" layoutY="151.0" text="ΑΡΙΘΜΟΣ ">
+                     <font>
+                        <Font name="AngsanaUPC Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="73.0" layoutY="192.0" text="ΠΕΡΙΟΧΗ" />
+                  <Label layoutX="73.0" layoutY="238.0" text="ΠΕΡΙΓΡΑΦΗ" />
+                  <TextField fx:id="TextFieldRoad" layoutX="222.0" layoutY="102.0" style="-fx-background-color: #e6f9ff;" />
+                  <TextField fx:id="TextFieldRoadNumber" layoutX="222.0" layoutY="147.0" style="-fx-background-color: #e6f9ff;" />
+                  <TextField fx:id="TextFieldArea" layoutX="222.0" layoutY="188.0" style="-fx-background-color: #e6f9ff;" />
+                  <TextField fx:id="TextFieldDescription" layoutX="222.0" layoutY="234.0" style="-fx-background-color: #e6f9ff;" />
+                  <ChoiceBox fx:id="ChoiceBoxType" layoutX="221.0" layoutY="61.0" prefWidth="150.0" style="-fx-background-color: #e6f9ff;" />
+                  <Button fx:id="Submit" layoutX="471.0" layoutY="350.0" mnemonicParsing="false" onAction="#Submit" prefHeight="25.0" prefWidth="63.0" style="-fx-background-color: #f2ffcc;" text="Submit" />
+                  <Button fx:id="Clear" layoutX="547.0" layoutY="350.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="63.0" style="-fx-background-color: #f2ffcc;" text="Clear" />
+               </children>
+            </AnchorPane>
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>

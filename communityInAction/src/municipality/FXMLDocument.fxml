@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="municipality.FXMLDocumentController">
+   <left>
+      <VBox prefHeight="329.0" prefWidth="158.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="problemsLabel" text="Latest Problems" underline="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <ListView fx:id="problems" prefHeight="309.0" prefWidth="144.0" />
+         </children>
+      </VBox>
+   </left>
+   <top>
+      <HBox BorderPane.alignment="CENTER">
+         <children>
+            <Region prefHeight="12.0" prefWidth="154.0" />
+            <Label fx:id="title" text="Municipality" underline="true">
+               <font>
+                  <Font name="Bell MT" size="60.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.8952380952380953">
+                     <stops>
+                        <Stop color="#2a2951" />
+                        <Stop color="WHITE" offset="1.0" />
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+         </children>
+      </HBox>
+   </top>
+</BorderPane>
