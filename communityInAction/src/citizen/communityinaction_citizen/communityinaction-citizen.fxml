@@ -13,7 +13,7 @@
          <children>
             <AnchorPane prefHeight="400.0" prefWidth="640.0" style="-fx-background-color: #FFE4C4;">
                <children>
-                  <Label layoutX="74.0" layoutY="65.0" text="ΤΥΠΟΣ ΠΡΟΒΛΗΜΑΤΟΣ" />
+                  <Label layoutX="72.0" layoutY="18.0" text="ΤΥΠΟΣ ΠΡΟΒΛΗΜΑΤΟΣ" />
                   <Label layoutX="73.0" layoutY="106.0" text="ΟΔΟΣ" />
                   <Label layoutX="71.0" layoutY="151.0" text="ΑΡΙΘΜΟΣ ">
                      <font>
@@ -25,10 +25,12 @@
                   <TextField fx:id="TextFieldRoad" layoutX="222.0" layoutY="102.0" style="-fx-background-color: #e6f9ff;" />
                   <TextField fx:id="TextFieldRoadNumber" layoutX="222.0" layoutY="147.0" style="-fx-background-color: #e6f9ff;" />
                   <TextField fx:id="TextFieldArea" layoutX="222.0" layoutY="188.0" style="-fx-background-color: #e6f9ff;" />
-                  <TextField fx:id="TextFieldDescription" layoutX="222.0" layoutY="234.0" style="-fx-background-color: #e6f9ff;" />
-                  <ChoiceBox fx:id="ChoiceBoxType" layoutX="221.0" layoutY="61.0" prefWidth="150.0" style="-fx-background-color: #e6f9ff;" />
+                  <ChoiceBox fx:id="ChoiceBoxType" layoutX="222.0" layoutY="14.0" prefWidth="150.0" style="-fx-background-color: #e6f9ff;" />
                   <Button fx:id="Submit" layoutX="471.0" layoutY="350.0" mnemonicParsing="false" onAction="#Submit" prefHeight="25.0" prefWidth="63.0" style="-fx-background-color: #f2ffcc;" text="Submit" />
                   <Button fx:id="Clear" layoutX="547.0" layoutY="350.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="63.0" style="-fx-background-color: #f2ffcc;" text="Clear" />
+                  <TextArea fx:id="TextAreaDescription" layoutX="220.0" layoutY="226.0" prefHeight="89.0" prefWidth="281.0" />
+                  <Label layoutX="70.0" layoutY="63.0" text="ΤΙΤΛΟΣ" />
+                  <TextField fx:id="TextFieldTitle" layoutX="222.0" layoutY="59.0" style="-fx-background-color: #e6f9ff;" />
                </children>
             </AnchorPane>
          </children>

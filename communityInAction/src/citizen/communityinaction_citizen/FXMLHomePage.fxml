@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="communityinaction_citizen.FXMLHomePageController">
+   <children>
+      <AnchorPane layoutX="3.0" layoutY="5.0" prefHeight="394.0" prefWidth="594.0">
+         <children>
+            <Button fx:id="ButtonProblem" layoutX="231.0" layoutY="294.0" mnemonicParsing="false" onAction="#ReportProblem" prefHeight="51.0" prefWidth="133.0" text="Report Problem" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

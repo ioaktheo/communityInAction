@@ -25,6 +25,7 @@ public class municipality extends Application {
         
         stage.setScene(scene);
         stage.show();
+        stage.setTitle("Community In Action");
     }
 
     /**

@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package citizen.communication;
+package citizen.database;
+
+import java.sql.SQLException;
 
 /**
  *
@@ -85,7 +87,7 @@ public class Problem {
 
         try {
 
-           String query = "INSERT INTO problem" + "(description,road)" + "VALUES('" +description + "','" + road + "')";
+           String query = "INSERT INTO problem" + "(title,description,road,street_number,area)" + "VALUES('" +title + "','" +description + "','" + road + "','" + numberOfRoad + "','" + area + "')";
             dblinker.getSt().executeUpdate(query);
             System.out.println("successfull insert \n");
         } catch (Exception ex) {

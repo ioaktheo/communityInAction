@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package citizen.database;
+package citizen.communityinaction_citizen;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -19,12 +19,16 @@ public class CommunityInAction_Citizen extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("communityinaction-citizen.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("FXMLHomePage.fxml"));
+        
         
         Scene scene = new Scene(root);
-        
         stage.setScene(scene);
         stage.show();
+        
+        
+        
+      
     }
 
     /**
@@ -35,3 +39,6 @@ public class CommunityInAction_Citizen extends Application {
     }
     
 }
+
+
+
